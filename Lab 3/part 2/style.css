@@ -61,7 +61,28 @@ html {
   font-family: "Prata", serif;
 }
 
-h1
+h1,
 h2 {
   font-family: "Bree Serif", serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+p {
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+}
+
+h2 + p {
+  text-indent: 2rem;
 }
