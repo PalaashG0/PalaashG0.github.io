@@ -114,4 +114,8 @@ a[href*="http"] {
 
 /* */
 
+ul,
+ol {
+  margin: 1.2rem 0;
+}
 
