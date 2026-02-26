@@ -61,6 +61,8 @@ html {
   font-family: "Prata", serif;
 }
 
+ /* */
+
 h1,
 h2 {
   font-family: "Bree Serif", serif;
@@ -86,3 +88,30 @@ p {
 h2 + p {
   text-indent: 2rem;
 }
+
+/* */
+
+a:link,
+a:visited {
+  color: #aa6666;
+}
+
+a:focus,
+a:hover {
+  color: #145063;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+a[href*="http"] {
+  padding-right: 17px;
+  background: url("external-link-52.png") no-repeat right center;
+  background-size: 15px 15px;
+}
+
+/* */
+
+
