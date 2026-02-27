@@ -61,7 +61,7 @@ nav a {
   width: 200px;
 }
 
-/* */
+/*---------------------*/
 
 nav ul {
     display: flex;
@@ -71,4 +71,10 @@ nav ul {
 nav {
     position: sticky;
     top: 0;
+}
+
+.feature {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
