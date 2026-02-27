@@ -78,3 +78,15 @@ nav {
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
