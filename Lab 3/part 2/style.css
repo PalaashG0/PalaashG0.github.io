@@ -119,3 +119,30 @@ ol {
   margin: 1.2rem 0;
 }
 
+/* */
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+nav li a {
+  font-family: "Bree Serif", serif;
+  border: 3px solid ;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2.6;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  text-decoration: none;
+  display: inline-block;
+  width: 105%;
+}
+
+nav li a:hover
+nav li a:focus {
+  color: #463889;
+}
