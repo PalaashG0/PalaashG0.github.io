@@ -1,3 +1,10 @@
+/*
+Name: Palaash Gajjar
+File: script.js
+Date: 04/10/2026
+Lab 4 Part 1 Silly Story Generator
+*/
+
 // Complete variable definitions and random functions
 
 const customName = document.getElementById("custom-name");
