@@ -18,3 +18,12 @@ const images = [
     {filename: "pic4.jpg", alt: "Egyptian Tomb painting"},
     {filename: "pic5.jpg", alt: "Moth on leaf"},
 ];
+
+const baseURL = "https://mdn.github.io/shared-assets/images/examples/learn/gallery/"
+
+for (const image of images) {
+    const newImage = document.createElement("img");
+    newImage.src = `${baseURL}${image.filename}`;
+    newImage.alt = image.alt;
+    
+}
