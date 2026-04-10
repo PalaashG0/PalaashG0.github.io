@@ -10,3 +10,11 @@ const thumbBar = document.querySelector(".thumb-bar");
 
 const btn = document.querySelector("button");
 const overlay = document.querySelector(".overlay");
+
+const images = [
+    {filename: "pic1.jpg", alt: "Human eye"},
+    {filename: "pic2.jpg", alt: "Sandstone rock formation"},
+    {filename: "pic3.jpg", alt: "Purple and white flowers"},
+    {filename: "pic4.jpg", alt: "Egyptian Tomb painting"},
+    {filename: "pic5.jpg", alt: "Moth on leaf"},
+];
