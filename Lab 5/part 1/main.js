@@ -1,3 +1,10 @@
+/*
+Name: Palaash Gajjar
+File: main.js
+Date: 04/21/2026
+Lab 5 Accessibility Troubleshooting
+*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
